@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_dialog">Question ?</string>
+    <string name="message_dialog">Castorama > Disney ?</string>
+    <string name="oui_dialog">Oui</string>
+    <string name="non_dialog">Non</string>
+</resources>

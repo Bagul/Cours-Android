@@ -40,15 +40,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 new AlertDialog.Builder(MainActivity.this)
-                        .setTitle("Alert")
-                        .setMessage("Oui ou Non ?")
-                        .setPositiveButton("Oui", new DialogInterface.OnClickListener() {
+                        .setTitle(R.string.title_dialog)
+                        .setMessage(R.string.message_dialog)
+                        .setPositiveButton(R.string.oui_dialog, new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
 
                             }
                         })
-                        .setNegativeButton("Non", new DialogInterface.OnClickListener() {
+                        .setNegativeButton(R.string.non_dialog, new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
                                 finish();
