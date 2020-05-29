@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_dialog">Question ?</string>
+    <string name="message_dialog">Home depot > Universal Studio ?</string>
+    <string name="oui_dialog">Yes</string>
+    <string name="non_dialog">No</string>
+</resources>
