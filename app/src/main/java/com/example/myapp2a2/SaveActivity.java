@@ -3,6 +3,7 @@ package com.example.myapp2a2;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -22,5 +23,19 @@ public class SaveActivity extends AppCompatActivity {
         btn_load = findViewById(R.id.btn_load);
         btn_save = findViewById(R.id.btn_save);
         edt_s = findViewById(R.id.edt_save_saisie);
+
+        btn_save.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
+        btn_load.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                
+            }
+        });
     }
 }
