@@ -67,8 +67,10 @@ public class MainActivity extends AppCompatActivity {
                     edit_saisie.setError("Veuillez saisir votre texte");
                     return;
                 }
-                Intent i = new Intent(MainActivity.this, HomeActivity.class);
+                /*Intent i = new Intent(MainActivity.this, HomeActivity.class);
                 i.putExtra("SAISIE", edit_saisie.getText().toString());
+                startActivity(i);*/
+                Intent i = new Intent(MainActivity.this, SaveActivity.class);
                 startActivity(i);
             }
         });
